@@ -19,3 +19,8 @@ Base Predator https://github.com/MasterLua/Base-PredatorRP
 PS : Contrairement au crédit developpeur dans la liste FiveM Ayze ne dev pas plutot Blanco qui dev a sa place
 
 Son github https://github.com/BlancoiNael
+
+# Support
+Je suis bien d'accord pour vous aidez a régler quelques beugs mais garder en tete que je ne suis pas developpeur personnel 
+Pour me contacter
+# Master#0005
