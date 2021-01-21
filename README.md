@@ -16,7 +16,7 @@ Base California https://github.com/Korioz/CaliforniaRP
 
 Base Predator https://github.com/MasterLua/Base-PredatorRP
 
-PS : Contrairement au crédit developpeur dans la liste FiveM Ayze ne dev pas plutot Blanco qui dev a sa place
+PS : Contrairement au crédit developpeur dans la liste FiveM Ayze ne dev pas mais plutot Blanco qui dev a sa place
 
 Son github https://github.com/BlancoiNael
 
