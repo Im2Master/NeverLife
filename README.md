@@ -15,3 +15,6 @@ Bon alors Never Life prends le seum quand le 2/4 des joueurs quitte le serveur p
 Base California https://github.com/Korioz/CaliforniaRP
 
 Base Predator https://github.com/MasterLua/Base-PredatorRP
+
+PS : Contrairement au crédit developpeur dans la liste FiveM Ayze ne dev pas plutot Blanco qui dev a sa place
+Son github https://github.com/BlancoiNael
