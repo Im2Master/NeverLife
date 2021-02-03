@@ -2649,101 +2649,6 @@ CREATE TABLE `society_moneywash` (
   `amount` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
--- --------------------------------------------------------
-
---
--- Structure de la table `tebex_boutique`
---
-
-CREATE TABLE `tebex_boutique` (
-  `id` int(11) NOT NULL,
-  `category` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `descriptions` varchar(255) NOT NULL,
-  `price` int(11) NOT NULL,
-  `is_enabled` tinyint(1) NOT NULL DEFAULT 1,
-  `action` longtext NOT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Déchargement des données de la table `tebex_boutique`
---
-
-INSERT INTO `tebex_boutique` (`id`, `category`, `name`, `descriptions`, `price`, `is_enabled`, `action`, `created_at`, `updated_at`) VALUES
-(1, 3, 'Pack Arme-Mini', 'Micro-smg + Pistolet Lourd + machette ', 2499, 1, '{\"weapons\":[{\"ammo\":50,\"name\":\"weapon_pistol\"},{\"ammo\":1,\"name\":\"weapon_knuckle\"},{\"ammo\":500,\"name\":\"weapon_minismg\"}]}', '2020-11-01 01:21:42', '2020-11-01 01:21:42'),
-(14, 3, 'Full Custom', 'Permet de customiser son véhicule au mécano au Maximum (demande de custom sur les tickets discord).', 1000, 1, '{}', '2020-11-01 03:22:44', '2020-11-01 03:22:44'),
-(15, 3, 'Pack Gang/Organisation', '- Label Officiel \r\nAccès Menu F7 (Fouiller / Escorter) ,Zône Contrôlée', 4745, 1, '{}', '2020-11-01 03:25:54', '2020-11-01 03:25:54'),
-(27, 1, 'AK-47', 'AK-47 permanente ', 3000, 1, '{\"weapons\":[{\"ammo\":250,\"name\":\"weapon_assaultrifle\"},]}', '2020-11-01 01:31:30', '2020-11-01 01:31:30'),
-(28, 1, 'Combat PDW', 'Combat PDW', 2500, 1, '{\"weapons\":[{\"ammo\":250,\"name\":\"weapon_combatpdw\"},]}', '2020-11-01 01:31:30', '2020-11-01 01:31:30'),
-(400, 1, 'M4', 'M4 permanente', 3000, 1, '{\"weapons\":[{\"ammo\":200,\"name\":\"weapon_carbinerifle\"},]}', '2020-11-01 01:31:30', '2020-11-01 01:31:30'),
-(502, 2, 'tmax', 'Vitesse Max 275km', 1500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"tmax\"}]}', '2021-01-14 05:44:16', '2021-01-14 05:44:16'),
-(503, 3, 'Pack Arme-Gang Bronze', 'Bat + Machete + Poing americain', 500, 1, '{\"weapons\":[{\"ammo\":1,\"name\":\"weapon_bat\"},{\"ammo\":1,\"name\":\"weapon_knuckle\"},{\"ammo\":1,\"name\":\"weapon_machete\"}]}', '2021-01-14 07:13:51', '2021-01-14 07:13:51'),
-(504, 2, 'Urus 2018', 'Vitesse Max 320km', 2500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"urus2018\"}]}', '2021-01-14 13:33:09', '2021-01-14 13:33:09'),
-(505, 2, '911turbos', 'Vitesse Max 400km', 2500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"911turbos\"}]}', '2021-01-14 13:45:46', '2021-01-14 13:45:46'),
-(506, 2, 'arv10 (AudiR8)', 'Vitesse Max 240km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"arv10\"}]}', '2021-01-14 14:04:28', '2021-01-14 14:04:28'),
-(507, 2, 'velar (RangeRover)', 'Vitesse Max 180km', 1500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"velar\"}]}', '2021-01-14 14:18:44', '2021-01-14 14:18:44'),
-(508, 2, 'laferrari17', 'Vitesse Max 260km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"laferrari17\"}]}', '2021-01-14 14:31:38', '2021-01-14 14:31:38'),
-(509, 2, 'rmodmi8 (BMW)', 'Vitesse Max 190km', 1500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"rmodmi8\"}]}', '2021-01-14 15:27:58', '2021-01-14 15:27:58'),
-(510, 2, 'pturismo (Porsche Panamera)', 'Vitesse Max 280km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"pturismo\"}]}', '2021-01-14 15:43:47', '2021-01-14 15:43:47'),
-(511, 2, 'demonhawk (JEEP)', 'Vitesse Max 278km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"demonhawk\"}]}', '2021-01-14 15:56:50', '2021-01-14 15:56:50'),
-(512, 2, 'mvisiongt (Mercedes)', 'Vitesse Max 250km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"mvisiongt\"}]}', '2021-01-14 16:25:26', '2021-01-14 16:25:26'),
-(513, 2, 'rmodx6 (BMW)', 'Vitesse Max 220km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"rmodx6\"}]}', '2021-01-14 16:38:50', '2021-01-14 16:38:50'),
-(514, 2, 'brabus700 (Mercedes Brabus)', 'Vitesse Max 160km', 1500, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"brabus700\"}]}', '2021-01-14 16:56:14', '2021-01-14 16:56:14'),
-(515, 2, 'a45', 'Vitesse Max 240km', 2000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"a45\"}]}', '2021-01-14 17:36:27', '2021-01-14 17:36:27'),
-(516, 2, 'divo ', 'Vitesse Max 330km', 3000, 1, '{\"vehicles\":[{\"type\":\"car\",\"name\":\"divo\"}]}', '2021-01-14 21:29:33', '2021-01-14 21:29:33');
-
--- --------------------------------------------------------
-
---
--- Structure de la table `tebex_boutique_category`
---
-
-CREATE TABLE `tebex_boutique_category` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `descriptions` varchar(255) NOT NULL,
-  `is_enabled` tinyint(1) NOT NULL DEFAULT 1,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Déchargement des données de la table `tebex_boutique_category`
---
-
-INSERT INTO `tebex_boutique_category` (`id`, `name`, `descriptions`, `is_enabled`, `created_at`, `updated_at`) VALUES
-(1, 'Armes', 'Packs  armes imports ', 1, '2020-10-31 21:26:42', '2020-10-31 21:26:42'),
-(2, 'Véhicules', 'Véhicules imports défintifs', 1, '2020-10-31 21:28:00', '2020-10-31 21:28:00'),
-(3, 'Packs ', 'Pack Gang , Pack Gold/Silver/Bronze ', 1, '2020-10-31 21:57:58', '2020-10-31 21:57:58');
-
--- --------------------------------------------------------
-
---
--- Structure de la table `tebex_players_wallet`
---
-
-CREATE TABLE `tebex_players_wallet` (
-  `id` int(11) NOT NULL,
-  `identifiers` varchar(255) NOT NULL,
-  `transaction` varchar(255) NOT NULL,
-  `price` varchar(255) NOT NULL,
-  `currency` varchar(255) NOT NULL,
-  `points` int(11) NOT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `updated_at` datetime NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Déchargement des données de la table `tebex_players_wallet`
---
-
-INSERT INTO `tebex_players_wallet` (`id`, `identifiers`, `transaction`, `price`, `currency`, `points`, `created_at`, `updated_at`) VALUES
-(39, '526890', 'tbx-4941621a86089-5c45e9', '4.16', 'EUR', 4500, '2021-01-18 00:55:33', '2021-01-18 00:55:33'),
-(40, '526890', 'Achat object laferrari17', '0', 'Points', -2000, '2021-01-18 01:01:58', '2021-01-18 01:01:58'),
-(41, '526890', 'Achat object a45', '0', 'Points', -2000, '2021-01-18 01:13:42', '2021-01-18 01:13:42'),
-(42, '526890', 'Achat object Pack Arme-Gang Bronze', '0', 'Points', -500, '2021-01-18 13:22:26', '2021-01-18 13:22:26');
 
 -- --------------------------------------------------------
 
@@ -3412,19 +3317,7 @@ CREATE TABLE `waveshield_ban` (
   `permanent` int(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
---
--- Déchargement des données de la table `waveshield_ban`
---
 
-INSERT INTO `waveshield_ban` (`license`, `identifier`, `liveid`, `xblid`, `discord`, `playerip`, `targetplayername`, `sourceplayername`, `reason`, `timeat`, `expiration`, `permanent`) VALUES
-('license:20216f9a12dbf9fdaa33a7777ddfa5d508f24f7c', 'steam:11000011d0e27ed', 'live:985154553113618', 'xbl:2535464965351560', 'discord:793945074097717259', 'ip:144.76.101.203', 'Maxime BlackWhite', '�・WaveShield', 'Arme Blacklist', '1610970661', '1610970661', 1),
-('license:2ab255e4160b4ea53edb6f8c9a53826aaa052541', 'steam:11000010257fec7', 'live:914802149655968', NULL, NULL, 'ip:5.135.143.71', 'fdsa6666a', '�・WaveShield', 'Arme Blacklist', '1610982955', '1610982955', 1),
-('license:70846ed28a7bb039c31db1e3dac6bc47b637b419', 'steam:11000013b9b2c03', 'live:914798353673253', 'xbl:2535441299165026', 'discord:533921866314940427', 'ip:90.91.9.96', 'Hugo Medina', '�・WaveShield', '� WaveShield : Give Weapon', '1610901621', '1610901621', 1),
-('license:828e2cb61f54dda6ae7a395f9a700ba0d8d12152', 'steam:110000143f47e1b', NULL, NULL, NULL, 'ip:176.31.236.143', 'Raphael', '�・WaveShield', 'Arme Blacklist', '1610972376', '1610972376', 1),
-('license:bbc710282224274b35d295a772dbaa19dd78c353', 'steam:1100001147d3e9f', NULL, NULL, 'discord:210081480343420928', 'ip:90.40.67.180', 'Vic\'', '�・WaveShield', 'Arme Blacklist', '1610966356', '1610966356', 1),
-('license:d1584c099b74ac5f29e0c9ace82cc906f4a66c15', NULL, NULL, NULL, 'discord:658280233295675440', 'ip:86.111.139.131', 'biberliboub', '�・WaveShield', '� WaveShield : Give Weapon', '1610973446', '1610973446', 1);
-
--- --------------------------------------------------------
 
 --
 -- Structure de la table `whitelist`
@@ -3642,24 +3535,6 @@ ALTER TABLE `shops`
 --
 ALTER TABLE `society_moneywash`
   ADD PRIMARY KEY (`id`) USING BTREE;
-
---
--- Index pour la table `tebex_boutique`
---
-ALTER TABLE `tebex_boutique`
-  ADD PRIMARY KEY (`id`);
-
---
--- Index pour la table `tebex_boutique_category`
---
-ALTER TABLE `tebex_boutique_category`
-  ADD PRIMARY KEY (`id`);
-
---
--- Index pour la table `tebex_players_wallet`
---
-ALTER TABLE `tebex_players_wallet`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Index pour la table `truck_inventory`
