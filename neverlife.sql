@@ -2755,18 +2755,18 @@ CREATE TABLE `users` (
   `character_id` int(11) NOT NULL,
   `identifier` varchar(50) COLLATE utf8mb4_bin NOT NULL,
   `permission_group` varchar(50) COLLATE utf8mb4_bin DEFAULT 'user',
-  `permission_level` int(11) DEFAULT 0,
-  `position` longtext COLLATE utf8mb4_bin DEFAULT NULL,
-  `skin` longtext COLLATE utf8mb4_bin DEFAULT NULL,
-  `accounts` longtext COLLATE utf8mb4_bin DEFAULT NULL,
-  `inventory` longtext COLLATE utf8mb4_bin DEFAULT NULL,
-  `loadout` longtext COLLATE utf8mb4_bin DEFAULT NULL,
+  `permission_level` int(11) DEFAULT '0',
+  `position` longtext COLLATE utf8mb4_bin,
+  `skin` longtext COLLATE utf8mb4_bin,
+  `accounts` longtext COLLATE utf8mb4_bin,
+  `inventory` longtext COLLATE utf8mb4_bin,
+  `loadout` longtext COLLATE utf8mb4_bin,
   `job` varchar(50) COLLATE utf8mb4_bin DEFAULT 'unemployed',
-  `job_grade` int(11) DEFAULT 0,
+  `job_grade` int(11) DEFAULT '0',
   `job2` varchar(50) COLLATE utf8mb4_bin DEFAULT 'unemployed2',
-  `job2_grade` int(11) DEFAULT 0,
-  `isDead` int(11) DEFAULT 0,
-  `status` longtext COLLATE utf8mb4_bin DEFAULT NULL,
+  `job2_grade` int(11) DEFAULT '0',
+  `isDead` int(11) DEFAULT '0',
+  `status` longtext COLLATE utf8mb4_bin,
   `last_property` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
   `firstname` varchar(50) COLLATE utf8mb4_bin DEFAULT NULL,
   `lastname` varchar(50) COLLATE utf8mb4_bin DEFAULT NULL,
@@ -2774,7 +2774,7 @@ CREATE TABLE `users` (
   `sex` varchar(10) COLLATE utf8mb4_bin DEFAULT NULL,
   `height` varchar(5) COLLATE utf8mb4_bin DEFAULT NULL,
   `phone_number` varchar(10) COLLATE utf8mb4_bin DEFAULT NULL,
-  `animations` longtext COLLATE utf8mb4_bin DEFAULT NULL
+  `animations` longtext COLLATE utf8mb4_bin
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 --
