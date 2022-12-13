@@ -29,7 +29,7 @@ exports({
 	'GenerateSocietyPlate'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

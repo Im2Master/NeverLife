@@ -13,7 +13,7 @@ files({
 	'img/*.png'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

@@ -17,7 +17,7 @@ exports({
 	'HideProgressbar'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

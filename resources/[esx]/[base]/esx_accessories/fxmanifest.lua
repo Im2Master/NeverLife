@@ -22,7 +22,7 @@ dependencies({
 	'esx_datastore'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

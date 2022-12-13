@@ -29,7 +29,7 @@ files {
   'html/debounce.min.js'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

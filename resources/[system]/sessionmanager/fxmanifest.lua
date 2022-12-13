@@ -3,7 +3,7 @@ game('gta5')
 
 server_script('server/host_lock.lua')
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

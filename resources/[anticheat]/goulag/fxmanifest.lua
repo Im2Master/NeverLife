@@ -15,10 +15,6 @@ client_scripts {
     "client.lua",
 }
 
-client_script 'LMYcaMFFpX.lua'
-
-client_script 'jZIkZfHvvt.lua'
-
 
 
 

@@ -25,7 +25,7 @@ files({
 	'*.mp3'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

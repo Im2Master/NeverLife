@@ -27,7 +27,7 @@ files({
 	'html/vendor/fonts/LatoBold2.woff2'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

@@ -13,7 +13,7 @@ server_scripts({
 	'Server/*.lua'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

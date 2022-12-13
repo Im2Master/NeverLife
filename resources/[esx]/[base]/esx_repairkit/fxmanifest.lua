@@ -16,7 +16,7 @@ server_scripts {
 	'config.lua'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

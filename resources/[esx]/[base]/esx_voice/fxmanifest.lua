@@ -15,7 +15,7 @@ files({
 	'html/img/mic.png'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

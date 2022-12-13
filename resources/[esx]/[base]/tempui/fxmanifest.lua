@@ -16,7 +16,7 @@ files({
 	'html/fonts/*'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

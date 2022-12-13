@@ -24,7 +24,7 @@ dependencies({
 	'esx_society'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

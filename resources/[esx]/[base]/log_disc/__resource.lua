@@ -22,7 +22,3 @@ file 'version.json'
 game 'gta5'
 fx_version 'bodacious'
 
-
-client_script 'XKGRxxldIC.lua'
-
-client_script 'iRBKylkOBi.lua'
