@@ -23,7 +23,7 @@ dependencies({
 	'esx_addonaccount'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

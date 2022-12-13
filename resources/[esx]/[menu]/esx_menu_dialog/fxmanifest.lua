@@ -18,7 +18,7 @@ files {
 	'html/fonts/bankgothic.ttf'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

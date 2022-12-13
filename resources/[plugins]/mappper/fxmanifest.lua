@@ -54,7 +54,7 @@ files({
 
 ui_page('html/ui.html')
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

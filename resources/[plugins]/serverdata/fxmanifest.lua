@@ -5,7 +5,7 @@ server_script('server/main.lua')
 --client_script('@korioz/lib.lua')
 client_script('client/main.lua')
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

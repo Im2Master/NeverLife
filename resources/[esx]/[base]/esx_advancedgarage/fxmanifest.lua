@@ -23,7 +23,7 @@ dependencies({
 	'esx_property'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

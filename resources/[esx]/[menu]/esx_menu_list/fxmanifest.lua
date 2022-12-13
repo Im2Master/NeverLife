@@ -23,7 +23,7 @@ files {
 
 dependency('es_extended')
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

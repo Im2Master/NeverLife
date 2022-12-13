@@ -23,7 +23,7 @@ client_scripts({
 	'client/jobs/*.lua'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

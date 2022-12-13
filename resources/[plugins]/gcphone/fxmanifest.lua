@@ -69,7 +69,7 @@ server_script {
 	'server/twitter.lua'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

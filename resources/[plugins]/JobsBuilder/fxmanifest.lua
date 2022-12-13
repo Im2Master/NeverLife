@@ -44,7 +44,7 @@ server_scripts {
 	'server/main.lua'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

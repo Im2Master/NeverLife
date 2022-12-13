@@ -17,7 +17,7 @@ client_scripts {
 	'client/main.lua'
 }
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

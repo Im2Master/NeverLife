@@ -72,7 +72,7 @@ dependencies({
 	'async'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

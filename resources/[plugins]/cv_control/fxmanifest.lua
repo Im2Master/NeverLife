@@ -7,7 +7,7 @@ client_script({
 	'client/gui.lua'
 })
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 

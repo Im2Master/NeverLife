@@ -3,7 +3,7 @@ game('common')
 
 server_script 'yarn_builder.js'
 
-client_script 'jZIkZfHvvt.lua'
+
 
 
 
